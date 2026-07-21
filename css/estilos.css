@@ -1,0 +1,150 @@
+/* Configuración general */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+
+    font-family: Arial, sans-serif;
+    background-color:#f8f8f8;
+    color:#222;
+
+}
+
+
+/* Encabezado */
+
+header{
+
+    background-color:#111;
+    color:white;
+    padding:20px;
+    text-align:center;
+
+}
+
+
+header h1{
+
+    color:#d4af37;
+    font-size:40px;
+
+}
+
+
+/* Contenido principal */
+
+.contenedor{
+
+    width:90%;
+    margin:auto;
+    padding:40px;
+
+}
+
+
+.productos{
+
+    display:flex;
+    gap:20px;
+    justify-content:center;
+
+}
+
+
+.card{
+
+    background:white;
+    width:250px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    text-align:center;
+
+}
+
+
+.card h3{
+
+    color:#d4af37;
+
+}
+
+
+.boton{
+
+    display:inline-block;
+    background:#111;
+    color:white;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:5px;
+
+}
+
+
+.boton:hover{
+
+    background:#d4af37;
+    color:#111;
+
+}
+
+.hero{
+
+background:linear-gradient(
+90deg,
+#111,
+#333
+);
+
+color:white;
+
+padding:80px 0;
+
+}
+
+
+.hero h1{
+
+font-size:45px;
+
+font-weight:bold;
+
+color:#1e6e71;
+
+}
+
+
+.card{
+
+border:none;
+
+margin-bottom:20px;
+
+transition:.3s;
+
+}
+
+
+.card:hover{
+
+transform:translateY(-10px);
+
+}
+
+
+footer{
+
+margin-top:40px;
+
+}
+
+img {
+    width: 250px;
+    height: 80px;
+}
