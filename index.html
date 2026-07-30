@@ -6,11 +6,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Fragance Store</title>
+    <title>L'ESSENCE</title>
 
     <!-- <link rel="stylesheet" href="css/estilos.css"> -->
-    <link rel="stylesheet" href="css/estilos.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="css/estilos.css">
 
 </head>
 
@@ -18,14 +18,19 @@
 <body>
 
 
+<body>
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
 <div class="container">
 
-<a class="navbar-brand" href="index.html">
-Fragance Store
-</a>
+<a class="navbar-brand d-flex align-items-center" href="index.html">
 
+    <img src="img/Logo.png" class="logo-navbar" alt="Logo L'ESSENCE">
+
+    <span class="ms-2">L'ESSENCE</span>
+
+</a>
 
 <button class="navbar-toggler" 
 type="button" 
@@ -100,12 +105,12 @@ Ingresar
 
 
 <h1>
-Perfumes que dejan huella
+Descubre la fragancia perfecta para ti
 </h1>
 
 
 <p>
-Descubre fragancias exclusivas para hombre, mujer y unisex.
+Perfumes inspirados para hombre, mujer y unisex con aromas que dejan una impresión inolvidable.
 </p>
 
 
@@ -118,10 +123,19 @@ Ver perfumes
 
 
 
-<div class="col-md-6 text-center">
+<!-- 
+<div class="info-perfume">
 
-<img src="img/Logo.png" 
-class="img-fluid">
+    <span class="estrellas">★★★★★</span>
+
+    <h3>Hawas Fire</h3>
+
+    <p>Inspirado en Rasasi Hawas</p>
+
+    <strong>50 ml</strong>
+
+</div> -->
+
 
 </div>
 
@@ -146,88 +160,116 @@ Productos destacados
 <div class="row">
 
 
+<div class="col-md-4">
+
+    <div class="card producto-card shadow">
+
+        <img src="img/perfumes/hawas-fire.jpeg"
+             class="card-img-top"
+             alt="Hawas Fire">
+
+      <div class="card-body">
+
+    <span class="badge bg-success mb-2">
+        Exclusivo
+    </span>
+
+    <h4>Hawas Fire</h4>
+
+            <p class="marca">
+                Inspirado en Rasasi Hawas
+                50ML
+            </p>
+
+            <p class="precio">
+                $25.000
+            </p>
+
+            <button class="btn btn-dark w-100 btn-comprar">
+                Agregar al carrito
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
 
 <div class="col-md-4">
 
-<div class="card shadow">
+    <div class="card producto-card shadow">
 
-<div class="card-body">
+        <img src="img/perfumes/Musaman.jpeg"
+             class="card-img-top"
+             alt="Musaman White Ints">
 
-<h3>
-Perfume Hombre
-</h3>
+        <div class="card-body">
+            <span class="badge bg-success mb-2">
+    Nuevo
+</span>
+            
 
-<p>
-Fragancias elegantes y modernas.
-</p>
+            <h4>Musaman</h4>
 
-<button class="btn btn-dark">
-Comprar
-</button>
+            <p class="marca">
+                Inspirado en Lattafa Musaman
+                50ML
+            </p>
+
+            <p class="precio">
+               $25.000
+            </p>
+
+            <button class="btn btn-dark w-100 btn-comprar">
+                Agregar al carrito
+            </button>
+
+        </div>
+
+    </div>
 
 </div>
-
-</div>
-
-</div>
-
-
 
 
 <div class="col-md-4">
 
-<div class="card shadow">
+    <div class="card producto-card shadow">
+<img src="img/perfumes/Yara.jpeg"
+     class="card-img-top"
+     alt="Yara">
 
 <div class="card-body">
+    <span class="badge bg-warning text-dark mb-2">
+    Más vendido
+</span>
 
-<h3>
-Perfume Mujer
-</h3>
+    <h4>Yara</h4>
 
-<p>
-Aromas delicados y exclusivos.
-</p>
+    <p class="marca">
+        Inspirado en Lattafa Yara
+        50ML
+    </p>
 
-<button class="btn btn-dark">
-Comprar
-</button>
+    <p class="precio">
+        $25.000
+    </p>
 
-</div>
-
-</div>
-
-</div>
-
-
-
-
-<div class="col-md-4">
-
-<div class="card shadow">
-
-<div class="card-body">
-
-<h3>
-Perfume Unisex
-</h3>
-
-<p>
-Una esencia para todos.
-</p>
-
-<button class="btn btn-dark">
-Comprar
-</button>
+    <button class="btn btn-dark w-100 btn-comprar">
+        Agregar al carrito
+    </button>
 
 </div>
 
-</div>
+        </div> <!-- card-body -->
 
-</div>
+    </div> <!-- card -->
+
+</div> <!-- columna -->
 
 
 
-</div>
+
+
 
 
 </section>
@@ -250,4 +292,3 @@ Comprar
 </body>
 
 
-</html>
