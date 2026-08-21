@@ -26,7 +26,7 @@ const products = [
     name: 'SAUVAGE',
     gender: 'caballero',
     genderLabel: 'Caballero',
-    image: 'img/perfumes/sauvage.jpeg',
+    image: 'img/perfumes/Sauvage.jpeg',
     description: 'Fragancia masculina, fresca e intensa, con un aroma elegante y sofisticado que deja huella.',
     volumen: '50 ml',
     price: 25000
