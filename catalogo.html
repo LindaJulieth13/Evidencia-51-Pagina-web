@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo | L'ESSENCE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="img/Logo.png" class="logo-navbar" alt="Logo L'ESSENCE">
+                <span class="ms-2">L'ESSENCE</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="catalogo.html">Catálogo</a></li>
+                    <li class="nav-item"><a class="nav-link" target="_blank" href="https://api.whatsapp.com/send?phone=573053838176&text=Hola estoy interesado en perfumes">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="catalog-hero">
+        <div class="container text-center">
+            <span class="badge bg-light text-dark mb-3">Colección premium</span>
+            <h1>Descubre tus perfumes favoritos</h1>
+            <p>Explora nuestra selección de aromas masculinos y femeninos, elaborados para que cada fragancia deje una impresión inolvidable.</p>
+            <div class="catalog-actions">
+                <a class="btn btn-primary" href="#caballero">Ver caballero</a>
+                <a class="btn btn-outline-light" href="#dama">Ver dama</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="caballero" class="gender-section">
+        <div class="container">
+            <div class="section-title">
+                <div class="line"></div>
+                <h2>Perfumes de caballero</h2>
+                <div class="line"></div>
+            </div>
+
+            <div id="caballero-grid" class="catalog-grid"></div>
+        </div>
+    </section>
+
+    <section id="dama" class="gender-section" style="background: rgba(255,255,255,0.5);">
+        <div class="container">
+            <div class="section-title">
+                <div class="line"></div>
+                <h2>Perfumes de dama</h2>
+                <div class="line"></div>
+            </div>
+
+            <div id="dama-grid" class="catalog-grid"></div>
+        </div>
+    </section>
+
+    <footer>
+        L'ESSENCE © 2026 - Fragancias premium para caballero y dama
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/catalog.js"></script>
+</body>
+</html>
